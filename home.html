@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="welcomePage"><p>Welcome</p>
+        <button onclick="document.querySelector('.welcomePage').style.display='none'">Start</button>
+    </div>
+
+
+
+    <div id="board">
+        <div class="square" id="0"></div>
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+    </div>
+    <p id="Inst">Circle Goes First</p>
+
+
+    <div class="winPage">
+        <p class="winMsg"></p>
+        <button class="reButton" onclick="window.location.reload()">Restart</button>
+    </div>
+
+    <!--CODE at https://github.com/ExeNeo/Tic-Tac-Toe -->
+
+    <script src="scripts.js"></script>
+</body>
+</html>
